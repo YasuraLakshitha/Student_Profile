@@ -1,0 +1,305 @@
+/* Meyer's Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+ background-color: rgb(252, 240, 225);
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.details{
+    width: 400px;
+    background-color: rgb(255, 249, 249);
+    padding:40px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+
+}
+.me{
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 70px;
+}
+.myDetails{
+    margin-top: 15px;
+    margin-left: 51px;
+}
+
+td{
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+.Other{
+    display: flex;
+    margin-top: 100px;
+}
+
+.whoAmI{
+    width:400px;
+    padding: 25px;
+    padding-bottom: 60px;
+    background-color: rgb(9, 179, 9);
+    margin-left: 80px;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.para1{
+    margin-left: 90px;
+    font-size:50px;
+}
+
+.img1{
+    margin-left: 100px;
+}
+
+.edu{
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 25px;
+    padding-bottom: 68px;
+    background-color: rgb(250, 196, 1);
+    width:400px;
+}
+
+.para2{
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size:50px;
+}
+
+.img2{
+    margin-left: 135px;
+}
+
+.projects{
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 25px;
+    padding-bottom: 68px;
+    background-color: rgb(48, 191, 248);
+    width:400px;
+}
+
+.para3{
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size:50px; 
+}
+
+.img3{
+    margin-left: 145px;
+}
+
+.whoAmI:hover{
+    cursor: pointer;
+    background-color: rgb(60, 153, 32);
+    color: rgb(0, 0, 0);
+}
+.edu:hover{
+    cursor: pointer;
+    background-color:  rgb(218, 172, 22);
+}
+.projects:hover{
+    cursor: pointer;
+    background-color: rgb(70, 171, 211) ;
+}
+
+.basic{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-size: 50px;
+    background-color: rgb(211, 47, 47);
+}
+
+.passionHeader{
+   margin-top: 25px;
+   background-color: rgb(207, 50, 50);
+   padding: 10px;
+   font-size: 50px;
+   color: aliceblue;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.passionDes{
+    font-size:18px;
+    padding:10px;
+    background-color: rgb(252, 217, 153);
+    margin-top: 100px;
+    margin: 50px;
+    border-radius: 15px;
+    border-left-width: 15px ;
+    border-style: solid;
+    border-color: rgb(250, 124, 21);
+    line-height: 28px;
+}
+.eduDes{
+    margin-top: 100px;
+}
+
+.eduHeader{
+    margin-top: 25px;
+    background-color: rgb(207, 50, 50);
+    padding: 10px;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+.eduList{
+    font-size:18px;
+    padding:10px;
+    padding-left: 25px;
+    background-color: rgb(252, 217, 153);
+    margin:20px 550px;
+    border-radius: 10px;
+    border-left-width: 15px ;
+    border-style: solid;
+    border-color: rgb(250, 124, 21);
+    line-height: 50px;
+}
+
+li{
+    list-style: disc;
+}
+
+.contact{
+    margin:20px 20px;
+    background-color: rgb(241, 186, 82);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.contactHeader{
+    font-size: 50px;
+    text-align: center;
+}
+
+.contactInfo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    line-height: 50px;
+}
+
+
+
+.copyRight{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(66, 66, 66);
+}
+
+hr{
+    margin:0;
+}
+
+.proj{
+    display: flex;
+    margin-top: 30px;
+}
+
+.BS{
+    background-color:  rgb(252, 217, 153);
+    padding: 30px;
+    margin-left: 80px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.bsName{
+    margin-top: 15px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.CBB{
+    background-color:  rgb(252, 217, 153);
+    padding: 30px;
+    margin-left: 150px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cbbName{
+    margin-top: 15px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.Bus{
+    background-color:  rgb(252, 217, 153);
+    padding: 30px;
+    margin-left: 150px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.busName{
+    margin-top: 15px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.proHeader{
+    margin-top: 25px;
+    background-color: rgb(207, 50, 50);
+    padding: 10px;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
